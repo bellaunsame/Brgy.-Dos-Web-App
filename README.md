@@ -2,7 +2,14 @@
 
 A modern web application for Barangay Dos to share news, events, and services with the community. Built with React, Firebase, and Tailwind CSS.
 
-## Tech Stack
+## 🚀 Features
+
+- News and Updates
+- Event Management
+- Service Requests
+- Community Information Hub
+
+## 🛠️ Tech Stack
 
 - **Frontend**: React 18 with Vite
 - **Styling**: Tailwind CSS v4.1
@@ -15,7 +22,7 @@ A modern web application for Barangay Dos to share news, events, and services wi
 - **Forms**: Custom validation
 - **Routing**: React Router v6
 
-## Local Development
+## 📦 Local Development
 
 ### Prerequisites
 
@@ -330,3 +337,7 @@ function NewsDetail({ id }) {
 ## License
 
 MIT
+=======
+# Brgy.-Dos-Web-App
+A modern web application for Barangay Dos to share news, events, and services with the community. Built with React, Firebase, and Tailwind CSS.
+>>>>>>> ff0c868835684c0bc1156c487301c15a1e0cdf0d
