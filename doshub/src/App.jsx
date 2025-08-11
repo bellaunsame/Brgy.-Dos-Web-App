@@ -9,7 +9,11 @@ import Events from './pages/Events'
 import EventDetail from './pages/EventDetail'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
-import Admin from './pages/Admin'
+import AdminDashboard from './pages/admin/AdminDashboard'
+import AdminLogin from './pages/admin/AdminLogin'
+import AdminNewsForm from './pages/admin/AdminNewsForm'
+import AdminEventsForm from './pages/admin/AdminEventsForm'
+import AdminServicesForm from './pages/admin/AdminServicesForm'
 
 function App() {
   return (
@@ -26,7 +30,16 @@ function App() {
             <Route path="/events/:id" element={<EventDetail />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/admin" element={<Admin />} />
+            
+            {/* Admin Routes */}
+            <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/news/new" element={<AdminNewsForm />} />
+            <Route path="/admin/news/:id" element={<AdminNewsForm />} />
+            <Route path="/admin/events/new" element={<AdminEventsForm />} />
+            <Route path="/admin/events/:id" element={<AdminEventsForm />} />
+            <Route path="/admin/services/new" element={<AdminServicesForm />} />
+            <Route path="/admin/services/:id" element={<AdminServicesForm />} />
           </Routes>
         </Container>
       </main>
