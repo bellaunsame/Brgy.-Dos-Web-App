@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Container from './components/Container'
 import Home from './pages/Home'
 import News from './pages/News'
+import NewsDetail from './pages/NewsDetail'
 import Events from './pages/Events'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
+            <Route path="/news/:id" element={<NewsDetail />} />
             <Route path="/events" element={<Events />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
